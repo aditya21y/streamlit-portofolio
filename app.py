@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 import requests
 from streamlit_lottie import st_lottie
 
-# lottie animation
+# lottie animationn
 def lottie_api(url):
     r = requests.get(url)
     if r.status_code != 200:

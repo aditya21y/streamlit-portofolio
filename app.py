@@ -12,7 +12,7 @@ def lottie_api(url):
 lottie = lottie_api("https://lottie.host/9c21083f-857c-4ad2-b3e3-1d3b3532c511/S4W85SKtwp.json")
 
 # streamlit interface
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Aditya Yudha P",page_icon="hourglass-split",layout="wide")
 
 # css
 st.markdown("""
@@ -26,6 +26,16 @@ st.markdown("""
           .st-emotion-cache-5rimss p a{
             margin-left:10px;
           }
+            .st-emotion-cache-6q9sum {
+            display:none;
+            }
+            .st-emotion-cache-6qob1r{
+                display:none;
+            }
+            .st-emotion-cache-1cypcdb{
+                display:none;
+            }
+        }
         </style>
         """, unsafe_allow_html=True)
 # menu options
@@ -101,3 +111,9 @@ if selected == "About":
                     - Assist the operational department in data collection of packages to be sent to the destination
                     - Helping the sales department enter company letters to be sent via ipos
             """)
+if selected == "Project":
+    st.write("Still Under Develop")
+if selected == "Contact":
+    st.write("Still Under Develop")
+if selected == "Blog":
+    st.write("Still Under Develop")
